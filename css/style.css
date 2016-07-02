@@ -5,7 +5,7 @@ header{
 	color: white;
 }
 body{
-	background: black;
+	background: white;
 }
 ul{
 	padding: 10px;
@@ -28,6 +28,19 @@ img{
 	border-radius: 20px;
 }
 article{
-	width: 500px;
+	max-width: 500px; /*max-width for responsive*/
 	padding: 20px;
+	margin: 0 auto;
+}
+@media (max-width: 500px) {	/* make the screen this color when screen less than 500px */
+	body{
+		background: #ededce;
+	}
+	h1{
+		font-size: 36px;
+	}
+	li{
+		display: block;
+		padding: 5px;
+	}
 }
