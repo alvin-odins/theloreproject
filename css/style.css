@@ -1,46 +1,43 @@
 header{
 	text-align: center;
-	background-size: cover;
 	background: url("http://dash.ga.co/assets/jeff-bg.png");
+	background-size: cover;
 	color: white;
 }
-body{
-	background: white;
+a{
+	color: white;
+}
+img{
+	border: 7px solid white;
+	border-radius: 20px;
+	margin: 40px 0px 0px 0px;
+}
+h1{
+	font-size: 70px;
 }
 ul{
-	padding: 10px;
-	background: black;
+padding: 10px;
+background: rgba(0,0,0,0.5);
 }
 li{
 	display: inline;
 	padding: 0px 10px 0px 10px;
 }
-h1{
-	color: white;
-	font-size: 72px;
-}
-a{
-	color: #fff;
-}
-img{
-	margin: 40px 0px 0px 0px;
-	border: 7px solid white;
-	border-radius: 20px;
-}
 article{
-	max-width: 500px; /*max-width for responsive*/
+	width: 800px;
 	padding: 20px;
 	margin: 0 auto;
 }
-@media (max-width: 500px) {	/* make the screen this color when screen less than 500px */
+@media(max-width: 500px) {
 	body{
-		background: #ededce;
+		background: red;
 	}
 	h1{
 		font-size: 36px;
+		padding: 5px;
 	}
 	li{
-		display: block;
 		padding: 5px;
+		display: block;
 	}
 }
